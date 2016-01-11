@@ -1,0 +1,20 @@
+// Fonts
+$body-font: "Roboto";
+$header-font: $body-font;
+
+// Base Colors
+$white: #FFFFFF;
+$black: #000000;
+$dark-gray: lighten($black, 20%);
+$gray: lighten($black, 40%);
+$light-gray: lighten($black, 60%);
+
+// Theme Colors
+$dark-primary: #1875D1;
+$primary: #2095F2;
+$light-primary: #BADDFA;
+$accent: #02A8F3;
+
+$primary-text: 202020;
+$secondary-text: #717171;
+$divider-color: #B5B5B5;
