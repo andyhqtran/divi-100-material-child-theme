@@ -12,14 +12,27 @@
  Text Domain:  material-child-theme
 */
 
-// Variables
-@import "base/variables";
+// Functions
+@import "base/functions";
 
 // Mixins
 @import "base/mixins";
 
+// Variables
+@import "base/variables";
+
+/* HTML */
+html {
+  font-size: 16px;
+}
+
 /* Body */
-body {}
+body {
+  font-size: rem(14);
+  font-weight: $regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 /* Header */
 @import "partials/header";
