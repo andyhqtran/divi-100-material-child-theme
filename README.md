@@ -1,5 +1,5 @@
 # Material Child Theme
-
+This is a material inspired child theme created for Divi.
 
 -
 
