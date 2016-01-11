@@ -20,6 +20,8 @@
 #### Background
 - Background Color: #F2F2F2
 
+-
+
 ## Header & Navigation
 
 #### Primary Menu Bar
@@ -27,10 +29,16 @@
 - Menu Height: 64px
 - Logo Max Height: 48px
 - Text Size: 14px
+- Text Color: #FFFFFF
+- Active Link Color: #FFFFFF
+- Background Color: #2095F2
+- Dropdown Menu Line Color: rgba(255,255,255,0)
+- Dropdown Menu Text Color: #717171
 
-#### Navigation
+#### Secondary Menu Bar
 - [x] Make Full Width
 - Text Size: 14px
+- Background Color: #1875D1
 
 #### Fixed Navigation Settings
 - Fixed Menu Height: 64px
