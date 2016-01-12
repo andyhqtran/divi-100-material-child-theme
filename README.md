@@ -32,6 +32,7 @@ This is a material inspired child theme created for Divi.
 - Text Color: #FFFFFF
 - Active Link Color: #FFFFFF
 - Background Color: #2095F2
+- Dropdown Menu Background Color: #FFFFFF
 - Dropdown Menu Line Color: rgba(255,255,255,0)
 - Dropdown Menu Text Color: #717171
 
