@@ -78,6 +78,7 @@
     &.mega-menu {
       > ul {
         width: auto !important;
+        min-width: 100%;
 
         > li {
           padding: rem(8) 0 !important;
