@@ -133,5 +133,16 @@
         }
       }
     }
+
+    // Blurb Module
+    &_blurb {
+      .et_pb_blurb_content {
+        background: $white;
+        border-radius: rem(2);
+        padding: rem(16);
+
+        @include elevation(1);
+      }
+    }
   }
 }
