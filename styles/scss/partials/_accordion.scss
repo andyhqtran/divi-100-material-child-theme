@@ -1,0 +1,27 @@
+.et_pb_accordion {
+  &.et_pb_accordion_toggling {
+    .et_pb_toggle_open {
+      left: 0%;
+      width: 100%;
+      margin: 0 !important;
+    }
+  }
+
+  .et_pb_toggle {
+    background: $white;
+    border: 0;
+
+    @include elevation(1);
+
+    margin: 0 !important;
+    border-bottom: rem(1) solid rgba($black, 0.05);
+    transition: 0.3s ease;
+
+    &.et_pb_toggle_open {
+      position: relative;
+      left: -2%;
+      width: 104%;
+      margin: rem(24) 0 !important;
+    }
+  }
+}
