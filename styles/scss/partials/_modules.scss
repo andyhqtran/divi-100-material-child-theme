@@ -1,0 +1,57 @@
+.et_pb {
+  // Acordion
+  &_accordion {
+    &.et_pb_accordion_toggling {
+      .et_pb_toggle_open {
+        left: 0%;
+        width: 100%;
+
+        @include elevation(1);
+
+        margin: 0 !important;
+      }
+    }
+
+    .et_pb_toggle {
+      background: $white;
+      border: 0;
+
+      @include elevation(1);
+
+      margin: 0 !important;
+      border-bottom: rem(1) solid rgba($black, 0.05);
+      transition: 0.3s ease;
+
+      &.et_pb_toggle_open {
+        position: relative;
+        left: -2%;
+        width: 104%;
+
+        @include elevation(3);
+
+        margin: rem(24) 0 !important;
+      }
+    }
+  }
+
+  // Audio Module
+  &_audio_module {
+    @include elevation(1);
+  }
+
+  // Counter Module
+  &_counters {
+    .et_pb_counter_title,
+    .et_pb_counter_amount_number {
+      display: none;
+    }
+
+    .et_pb_counter_container {
+      margin: 0 0 rem(12);
+    }
+
+    .et_pb_counter_amount {
+      min-height: rem(4);
+    }
+  }
+}
