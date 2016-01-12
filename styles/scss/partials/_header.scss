@@ -53,7 +53,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0 !important;
+
+  // padding: 0 !important;
 
   li {
     padding: 0;
@@ -130,7 +131,10 @@
 
   a {
     font-weight: $semibold;
-    padding: rem(24) rem(12) !important;
+    padding-right: rem(12) !important;
+    padding-left: rem(12) !important;
+
+    // padding: rem(24) rem(12) !important;
     box-sizing: border-box;
   }
 }
@@ -159,8 +163,9 @@
   width: rem(40);
   height: rem(40);
   margin: 0 0 0 rem(12);
-  line-height: rem(40);
-  text-align: center;
+
+  // line-height: rem(40);
+  // text-align: center;
 }
 
 #et_search_icon {
@@ -169,6 +174,7 @@
     top: 0;
     left: 0;
     font-size: rem(14);
+    vertical-align: top;
   }
 }
 

@@ -26,7 +26,7 @@ This is a material inspired child theme created for Divi.
 
 #### Primary Menu Bar
 - [x] Make Full Width
-- Menu Height: 64px
+- Menu Height: 48px
 - Logo Max Height: 48px
 - Text Size: 14px
 - Text Color: #FFFFFF
@@ -42,7 +42,7 @@ This is a material inspired child theme created for Divi.
 - Background Color: #1875D1
 
 #### Fixed Navigation Settings
-- Fixed Menu Height: 64px
+- Fixed Menu Height: 48px
 
 #### Header Elements
 - [x] Show Social Icons
