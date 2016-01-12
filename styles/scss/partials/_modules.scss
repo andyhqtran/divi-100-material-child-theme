@@ -144,5 +144,20 @@
         @include elevation(1);
       }
     }
+
+    // Countdown Timer Module
+    &_countdown_timer {
+      border-radius: rem(2);
+
+      @include elevation(1);
+    }
+
+    // Email Optin Module
+    &_newsletter,
+    &_subscribe {
+      border-radius: rem(2);
+
+      @include elevation(1);
+    }
   }
 }
