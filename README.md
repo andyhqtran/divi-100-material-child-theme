@@ -47,3 +47,13 @@ This is a material inspired child theme created for Divi.
 #### Header Elements
 - [x] Show Social Icons
 - [x] Show Search Icon
+
+## Buttons
+
+#### Buttons Style
+- Text Size: 14px
+- Text Color: rgba(255,255,255,0.99) // Fixes Text Color Glitch
+- Background Color: #02A8F3
+- Border Width: 0
+- Border Radius: 3
+- Add Button Icon: No

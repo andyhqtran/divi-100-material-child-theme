@@ -1,0 +1,30 @@
+.et_pb_button {
+  min-width: rem(88);
+
+  @include elevation(1);
+
+  padding: rem(6.5) rem(12) !important;
+  text-align: center;
+
+  &:active {
+    @include elevation(3);
+  }
+
+  .et_button_no_icon & {
+    @extend .et_pb_button;
+
+    &:hover {
+      @extend .et_pb_button;
+    }
+
+    &:active {
+      @extend .et_pb_button;
+
+      @include elevation(3);
+    }
+  }
+}
+
+.et_pb_more_button {
+  @extend .et_pb_button;
+}
