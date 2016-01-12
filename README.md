@@ -57,3 +57,6 @@ This is a material inspired child theme created for Divi.
 - Border Width: 0
 - Border Radius: 3
 - Add Button Icon: No
+
+#### Buttons Hover Style
+- Background Color: #02A8F3
