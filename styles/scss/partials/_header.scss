@@ -31,6 +31,7 @@
 
 /* Main Header */
 #main-header {
+  top: 56px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -102,6 +103,8 @@
 
       @include elevation(2);
 
+      transition: all 0.2s ease-in-out !important;
+
       ul {
         top: 0;
       }
@@ -127,7 +130,8 @@
 
   a {
     font-weight: $semibold;
-    padding: rem(25) rem(12) !important;
+    padding: rem(24) rem(12) !important;
+    box-sizing: border-box;
   }
 }
 
