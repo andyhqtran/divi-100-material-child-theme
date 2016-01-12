@@ -50,6 +50,7 @@
       }
 
       .et_pb_counter_container {
+        border-radius: rem(2);
         margin: 0 0 rem(12);
       }
 
@@ -235,6 +236,13 @@
           }
         }
       }
+    }
+
+    // Gallery Module
+    &_gallery {
+      border-radius: rem(2);
+
+      @include elevation(1);
     }
   }
 }
