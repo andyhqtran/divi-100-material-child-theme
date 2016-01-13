@@ -1,0 +1,26 @@
+.et_pb_widget {
+  &.widget_search {
+    input#s {
+      border: 0;
+      border-radius: 0;
+    }
+
+    input#searchsubmit {
+      top: auto;
+      bottom: rem(8);
+      height: auto !important;
+      border: 0 !important;
+      border-radius: rem(2);
+      min-height: 0 !important;
+
+      @include elevation(1);
+
+      padding: rem(6.5) rem(12) !important;
+      text-align: center;
+
+      &:active {
+        @include elevation(3);
+      }
+    }
+  }
+}
