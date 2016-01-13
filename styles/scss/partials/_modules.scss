@@ -138,7 +138,6 @@
     // Blurb Module
     &_blurb {
       .et_pb_blurb_content {
-        background: $white;
         border-radius: rem(2);
         padding: rem(16);
 
@@ -328,7 +327,6 @@
 
     // Person Module
     &_team_member {
-      background: $white;
       border-radius: rem(2);
 
       @include elevation(1);
@@ -373,7 +371,6 @@
     // Pricing Module
     &_pricing {
       .et_pb_pricing_table {
-        background: $white;
         border: 0;
         border-radius: rem(2);
         margin: 0;
@@ -436,6 +433,13 @@
           }
         }
       }
+    }
+
+    // Testimonial
+    &_testimonial {
+      border-radius: rem(2);
+
+      @include elevation(1);
     }
   }
 }
