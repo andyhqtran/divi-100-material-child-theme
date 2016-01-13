@@ -309,13 +309,13 @@
     }
 
     // Image Module
-    &_image {
-      border-radius: rem(2);
+    // &_image {
+    //   border-radius: rem(2);
 
-      @include elevation(1);
+    //   @include elevation(1);
 
-      overflow: hidden;
-    }
+    //   overflow: hidden;
+    // }
 
     // Map Module
     &_map_container {
