@@ -166,6 +166,7 @@
     }
 
     // Portfolio
+    &_portfolio,
     &_filterable_portfolio {
       .et_pb_portfolio_filters {
         margin: 0 0 rem(24);
@@ -356,6 +357,35 @@
       .et_pb_column_4_4 & {
         .et_pb_team_member_image {
           margin: rem(-16) rem(16) rem(-16) rem(-16);
+        }
+      }
+    }
+
+    // Post Slider Module
+    &_slider {
+      border-radius: rem(2);
+
+      @include elevation(1);
+
+      overflow: hidden;
+    }
+
+    // Pricing Module
+    &_pricing {
+      .et_pb_pricing_table {
+        background: $white;
+        border: 0;
+        border-radius: rem(2);
+        margin: 0;
+
+        @include elevation(1);
+
+        &.et_pb_featured_table {
+          transform: scale(1.05);
+        }
+
+        .et_pb_pricing_content_top {
+          border-bottom: 1px solid rgba($black, 0.1);
         }
       }
     }
