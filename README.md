@@ -60,3 +60,24 @@ This is a material inspired child theme created for Divi.
 
 #### Buttons Hover Style
 - Background Color: #02A8F3
+
+
+## Footer
+
+
+#### Layout
+- Footer Background Color: #2095F2
+
+#### Widgets
+- Widget Header Color: #FFFFFF
+- Widget Bullet Color: #FFFFFF
+
+#### Footer Menu
+- Footer Menu Background Color: #2095F2
+- Footer Menu Text Color: #FFFFFF
+
+#### Bottom Bar
+- Background Color: #1875D1
+- Text Color: #FFFFFF
+- Social Icon Size: 14px
+- Social Icon Color: #FFFFFF
