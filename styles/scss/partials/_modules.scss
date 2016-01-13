@@ -389,5 +389,31 @@
         }
       }
     }
+
+    // Search Module
+    &_search {
+      input.et_pb_s {
+        border: 0;
+        border-radius: 0;
+      }
+
+      input.et_pb_searchsubmit {
+        top: auto;
+        bottom: rem(8);
+        border: 0 !important;
+        border-radius: rem(2);
+        min-width: rem(88);
+        min-height: 0 !important;
+
+        @include elevation(1);
+
+        padding: rem(6.5) rem(12) !important;
+        text-align: center;
+
+        &:active {
+          @include elevation(3);
+        }
+      }
+    }
   }
 }

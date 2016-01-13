@@ -1,12 +1,12 @@
 .input {
   background: 0 !important;
   border-radius: none !important;
-  border-bottom: rem(1) solid $gray !important;
+  border-bottom: rem(1) solid $light-gray !important;
   padding: rem(24) 0 rem(8) !important;
   transition: 0.3s ease;
 
   &:focus {
-    box-shadow: inset 0 -1px 0 $gray !important;
+    box-shadow: inset 0 -1px 0 $light-gray !important;
   }
 }
 
