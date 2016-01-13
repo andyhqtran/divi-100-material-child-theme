@@ -243,6 +243,64 @@
       border-radius: rem(2);
 
       @include elevation(1);
+
+      &_grid {
+        .et_pb_gallery_items {
+          box-sizing: border-box;
+
+          .et_pb_gallery_item {
+            width: 25%;
+            margin: 0;
+
+            h3 {
+              padding: rem(4) rem(16) rem(8);
+            }
+          }
+        }
+      }
+
+      .et_pb_gallery_pagination {
+        padding: rem(4) rem(8);
+
+        &:after {
+          content: '';
+          display: table;
+          height: 0;
+          clear: both;
+        }
+
+        li.page {
+          padding: 0;
+
+          a {
+            display: block;
+            width: 24px;
+            height: 24px;
+            box-sizing: border-box;
+            font-size: rem(14);
+            line-height: 24px;
+            text-align: center;
+          }
+        }
+
+        li.prev,
+        li.next {
+          padding: 0;
+        }
+
+        .page-prev,
+        .page-next {
+          min-width: rem(88);
+          padding: rem(5.5) rem(12) !important;
+          border-radius: rem(2);
+          font-size: rem(14);
+          text-align: center;
+
+          &:hover {
+            background: rgba($black, 0.1);
+          }
+        }
+      }
     }
   }
 }

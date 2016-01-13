@@ -34,6 +34,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* ET Overlay */
+.et_overlay {
+  border: 0;
+}
+
 /* Header */
 @import "partials/header";
 
