@@ -1,3 +1,4 @@
+// Elevation
 @mixin elevation($level) {
   @if $level == 1 {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
@@ -21,5 +22,14 @@
 
   @else {
     box-shadow: none !important;
+  }
+}
+
+// Media Queries
+$media-query: (desktop: 1024px, lg_tablet: 980px, tablet: 768px, phone: 480px);
+
+@mixin media($device) {
+  @media only screen and (max-width: map-get($media-query, $device)) {
+    @content;
   }
 }

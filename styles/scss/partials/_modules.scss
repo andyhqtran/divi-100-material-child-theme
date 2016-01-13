@@ -307,13 +307,57 @@
       }
     }
 
-    // Image
+    // Image Module
     &_image {
       border-radius: rem(2);
 
       @include elevation(1);
 
       overflow: hidden;
+    }
+
+    // Map Module
+    &_map_container {
+      border-radius: rem(2);
+
+      @include elevation(1);
+
+      overflow: hidden;
+    }
+
+    // Person Module
+    &_team_member {
+      background: $white;
+      border-radius: rem(2);
+
+      @include elevation(1);
+
+      padding: rem(16);
+      overflow: hidden;
+
+      .et_pb_team_member_image {
+        margin: rem(-16) rem(-16) rem(16) rem(-16);
+
+        @include media(lg_tablet) {
+          & {
+            margin: rem(-16) rem(16) rem(-16) rem(-16) !important;
+          }
+        }
+
+
+        @include media(tablet) {
+          & {
+            margin: rem(-16) rem(-16) rem(16) rem(-16) !important;
+          }
+        }
+      }
+
+      .et_pb_column_2_3 &,
+      .et_pb_column_4_4 & {
+        .et_pb_team_member_image {
+          margin: rem(-16) rem(16) rem(-16) rem(-16);
+        }
+      }
     }
   }
 }
