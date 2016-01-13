@@ -159,6 +159,10 @@
       border-radius: rem(2);
 
       @include elevation(1);
+
+      input {
+        border-radius: none !important;
+      }
     }
 
     // Portfolio
@@ -301,6 +305,15 @@
           }
         }
       }
+    }
+
+    // Image
+    &_image {
+      border-radius: rem(2);
+
+      @include elevation(1);
+
+      overflow: hidden;
     }
   }
 }
