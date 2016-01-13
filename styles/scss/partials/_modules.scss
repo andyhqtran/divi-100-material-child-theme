@@ -415,5 +415,27 @@
         }
       }
     }
+
+    // Tab Module
+    &_tabs {
+      border: 0;
+
+      .et_pb_tabs_controls {
+        background: 0;
+        border: 0;
+        border-bottom: 1px solid $divider-color;
+
+        li {
+          background: 0;
+          border: 0;
+          padding: rem(6.5) rem(12);
+          font-weight: $regular;
+
+          &.et_pb_tab_active {
+            border-bottom: rem(2) solid $accent;
+          }
+        }
+      }
+    }
   }
 }
