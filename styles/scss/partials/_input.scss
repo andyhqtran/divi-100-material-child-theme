@@ -10,11 +10,11 @@
   }
 }
 
-input,
-input[type='text'],
-input[type='tel'],
-input[type='number'],
-input[type='num'],
-input[type='email'] {
+input:not(.et_pb_button),
+input[type='text']:not(.et_pb_button),
+input[type='tel']:not(.et_pb_button),
+input[type='number']:not(.et_pb_button),
+input[type='num']:not(.et_pb_button),
+input[type='email']:not(.et_pb_button) {
   @extend .input;
 }
