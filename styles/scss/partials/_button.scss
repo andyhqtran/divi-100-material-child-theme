@@ -1,10 +1,13 @@
 .et_pb_button {
   min-width: rem(88);
+  overflow: hidden;
+  overflow: hidden;
 
   @include elevation(1);
 
   padding: rem(6.5) rem(12) !important;
   text-align: center;
+  overflow: hidden;
 
   &:active {
     @include elevation(3);

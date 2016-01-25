@@ -1,0 +1,33 @@
+// Ripple Settings
+$background: #000; // Default Background
+$size: 200px; // Default Size
+$duration: 1s; // Default Duration
+
+// Ripple
+.ripple,
+[ripple] {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+// Ripple Effect
+.ripple-effect {
+  position: absolute;
+  background: $background;
+  width: $size;
+  height: $size;
+  border-radius: 100%;
+  transform: scale(2, 2);
+  opacity: 0;
+  animation: ripple-effect $duration linear;
+  transition: 0.3s linear;
+}
+
+// Ripple Keyframe
+@keyframes ripple-effect {
+  0% {
+    opacity: 0.3;
+    transform: scale(0, 0);
+  }
+}
